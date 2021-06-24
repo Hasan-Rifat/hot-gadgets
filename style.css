@@ -1,0 +1,138 @@
+body{
+	background: #fdfdfd;
+}
+
+.nav .container{
+	margin-bottom: 20px;
+}
+
+.container{
+	margin-bottom: 100px;
+}
+
+/* start header  */
+.navbar-nav .nav-item {
+	font-size: 17px;
+	padding: 0 15px;
+	font-weight: 600;
+}
+
+/* end header  */
+/* start Carousel */
+.slider-1{
+  background: url("images/bg-2.png"), url("images/bg-1.png");
+  background-repeat: no-repeat;
+  background-position:bottom left, left 45% center;
+  padding-bottom: 100px ;
+}
+.slider-sub-r{}
+.slider-main{
+  padding: 20px 35px;
+}
+.buy-btn {
+	background: #000000;
+	padding: 10px 30px;
+	text-decoration: none;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 18px;
+	margin: 20px 0;
+	display: inline-block;
+  font-weight: 600;
+	border: none;
+}
+.buy-btn i{
+  margin-left: 10px;
+}
+.buy-btn:hover{
+  background: linear-gradient(45deg, #ffc41f, #ff9c35);
+  color: #fff;
+}
+
+.slider-sub p {
+	margin: 35px 0 35px 0;
+}
+.carousel-indicators [data-bs-target] {
+	height: 10px;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+	background-image: linear-gradient(45deg, #ffc41f, #ff9c35);
+	border-radius: 10px;
+}
+/* end Carousel */
+
+/* smart phone start  */
+.smart{
+	padding-top: 80px;
+}
+.smart-h {
+	margin: 20px 0 40px 0;
+}
+.smart-h h2 {
+	font-size: 35px;
+	font-weight: 700;
+}
+.smart-h h3 {
+	font-size: 17px;
+	color: #FF9D00;
+	font-weight: 500;
+}
+.card-footer {
+	background-color: #fff !important;
+	border-top: none !important;
+	border-radius: 83% !important;
+	/* width: 100%; */
+}
+.card {
+	border: none;
+	box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+	border-radius: 5% !important;
+}
+.smart .card .img {
+	padding: 30px;
+}
+/* smart phone end  */
+/* laptop start  */
+.laptop{}
+.laptop .card .img {
+	padding: 30px;
+}
+/* laptop end  */
+/* Categories start   */
+.categories{}
+.categories-h{
+	margin: 50px 0 70px 0;
+}
+.categories-h h2{
+	font-size: 35px;
+	font-weight: 700;
+}
+.categories-h span {
+	display: inline-block;
+	background-image: linear-gradient(45deg, #ffc41f, #ff9c35);
+	width: 100px;
+	height: 10px;
+	border-radius: 10px;
+}
+
+.categories-sub{
+	box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+	text-align: center;
+	height: 316px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column !important;
+	margin-bottom: 20px;
+}
+.categories-sub img{}
+.categories-sub h4{}
+
+.categories-rigt-img{}
+.categories-rigt-img img{}
+/* Categories end  */
+
+footer{
+	background: #5d0fe3;
+	color: #fff;
+}
