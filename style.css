@@ -125,6 +125,12 @@ body{
 	flex-direction: column !important;
 	margin-bottom: 20px;
 }
+.br-left {
+	border-radius: 0px 0px 0px 10%;
+}
+.br-right {
+	border-radius: 0px 0px 10% 0px;
+}
 .categories-sub img{}
 .categories-sub h4{}
 
